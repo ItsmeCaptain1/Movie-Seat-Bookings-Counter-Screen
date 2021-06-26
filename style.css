@@ -1,0 +1,31 @@
+.background {
+  background: rgb(238, 157, 124);
+  margin: 25px;
+  padding: 10px;
+}
+
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box:hover {
+  opacity: 0.6;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: rgb(17, 146, 82);
+}
+
+.boxChecked {
+  background-color: rgb(236, 84, 84);
+}
+
+h2 {
+  margin-right: 20px;
+  margin-top: 10px;
+}
